@@ -1,0 +1,93 @@
+<div class="m-4">
+    <!--head-->
+    <div class="bg-dark text-light bg">
+        <span><img src="assets/img/icons/info/dev.png" alt=""></span>
+        <h1>MARCO ANTONIO MARIN FRANCO</h1>
+        <h2>FULLSTACK DEVELOPER</h2>  
+    </div>
+
+    <div class="mt-5">
+        <app-section titleSection="EXPERIENCIA PROFESIONAL" [url]="'assets/img/icons/info/experience.png'"></app-section>
+
+        <app-experience 
+            [post]="'DESARROLLADOR DE SOFTWARE | SERINFOR'" 
+            [dateStart]="'Diciembre 12/2022'" 
+            [dateEnd]="'Actualidad'"
+            [functions]="['Low Code (Flexygo)','SQLServer','Html – JavaScript - Css','Ionic']"
+        > </app-experience>
+
+        <app-experience 
+            [post]="'ANALISTA DE APLICACIONES | INELCO'" 
+            [dateStart]="'Junio 16/2022'" 
+            [dateEnd]="'Diciembre 09 de 2022'"
+            [functions]="['Soporte sobre a aplicativos propios (siesa,Edificar,Sammi,GLPI)',
+                'Desarrollo de soluciones empleando herramientas de office 365
+                power automate y power apps',
+                'Desarrollo de apps a medida en lenguajes PHP, JavaScript,C#
+                segun requerimiento de las diferentes areas.',
+                'Soporte sobre bases de datos Oracle, SQLServer, MySql']"
+        > </app-experience>
+
+        <app-experience 
+            [post]="'AUXILIAR DE SOPORTE | TABLESA'" 
+            [dateStart]="'Marzo 16/2021'" 
+            [dateEnd]="'Junio 15 de 2023'"
+            [functions]="['Soporte remoto y en sitio',
+                'Mantenimiento aplicativos web (wordpress, Joomla)',
+                'Analisis y desarrollo de aplicativos nuevos, segun requerimientos,
+                empleando lenguajes php, c#',
+                'Desarrollo de soluciones empleando herramientas de office 365
+                power automate y power apps']"
+        > </app-experience>
+
+        <app-experience 
+            [post]="'SOPORTE FUNCIONAL | CORAL SOLUTIONS'" 
+            [dateStart]="'Noviembre 7/2019'" 
+            [dateEnd]="'Marzo 12/2021'"
+            [functions]="['Soporte remoto y en sitio',
+                'Desarrollo web empleando tecnologias PHP,JavaScript',
+                'Telefonia IP',
+                'Soporte sobre bases de datos Oracle. (PLSQL)']"
+        > </app-experience>
+    </div>
+
+    <div class="mt-3">
+        <app-section titleSection="FORMACION" [url]="'assets/img/icons/info/training.png'"></app-section>
+
+        <app-training
+            [course]="'DIPLOMADO EN HABILIDADES EN PROGRAMACION CON ENFASIS EN DESARROLLO WEB'"
+            [institute]="'UNAB'"
+            [status]="'Finalizado'"
+            [date]="'Diciembre 28/2021'"
+        ></app-training>
+
+        <app-training
+            [course]="'INGENIERIERIA DE SISTEMAS'"
+            [institute]="'UNAD'"
+            [status]="'En formacion'"
+        ></app-training>
+
+        <app-training
+            [course]="'ESPECIALIZACION TECNOLOGICA EN GESTION Y SEGURIDAD DE BASES DE DATOS'"
+            [institute]="'SENA'"
+            [status]="'Finalizado'"
+            [date]="'Julio 05/2018'"
+        ></app-training>
+
+        <app-training
+            [course]="'TECNOLOGIA EN ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION'"
+            [institute]="'SENA'"
+            [status]="'Finalizado'"
+            [date]="'Mayo 18/2016'"
+        ></app-training>
+    </div>
+
+    <div class="mt-3">
+        <app-section titleSection="IDIOMAS" [url]="'assets/img/icons/info/language.png'"></app-section>
+        <div class="ms-5">
+            <P><strong>Ingles: </strong>Basico</P>
+            <P><strong>Español: </strong>Nativo</P>
+        </div>
+    </div>
+    
+</div>

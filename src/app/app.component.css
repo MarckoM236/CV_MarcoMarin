@@ -1,0 +1,33 @@
+/* main blocks inline*/
+.display{
+    display: flex;
+}
+
+/**/
+.sidebar{
+    width: 350px;
+    height: 100%;
+}
+
+/**/
+.info{
+    background-color: ghostwhite;
+    height: 100%;
+}
+
+/* button icons */
+.btn-img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 617px) {
+    .display {
+      display:block;
+    }
+    .sidebar{
+        text-align: center;
+        width: auto;
+    }
+  }

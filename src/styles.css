@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+}
+
+#sidebar {
+    height: auto;
+    min-height: 100vh;
+    min-width: 300px;
+}
+
+body {
+    font-family: Helvetica, Verdana;
+    background-image: url('assets/img/fondo.jpg');
+    }
+    
+p {
+font-family: Cambria, 'Times New Roman', Times, serif;
+}
+
+
+     
