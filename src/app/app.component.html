@@ -2,16 +2,22 @@
 <nav class="navbar navbar-light bg-light">
   <div class="container">
     <span class="navbar-brand mb-0 h1">My CV</span>
-    <div *ngIf="visibility===false">
+    <div *ngIf="visibility===false" class="var">
       <button class="btn btn-outline-primary" (click)="verCV()" >
         <span><img src="assets/img/icons/info/btn/Generate.png" alt="" class="btn-img"> Generar PDF</span>
       </button>
     </div>
 
-    <div *ngIf="visibility===true" class="text-center">
+    <div *ngIf="visibility===true">
       <button class="btn btn-outline-primary" (click)="generarPdf()">
         <span><img src="assets/img/icons/info/btn/Download.png" alt="" class="btn-img"> Descargar PDF</span>
       </button>
+    </div>
+
+    <div class="show">
+      <a href="assets/pdf/CV_MarcoMarin.pdf" class="btn btn-outline-primary">
+        <span><img src="assets/img/icons/info/btn/Download.png" alt="" class="btn-img"> Descargar PDF</span>
+      </a>
     </div>
   </div>
 </nav>
